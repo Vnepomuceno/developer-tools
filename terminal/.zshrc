@@ -49,8 +49,8 @@ setopt NO_NOMATCH
 
 # HSTR configuration
 alias hh=hstr                    # hh to be alias for hstr
+export HSTR_CONFIG=raw-history-view,hicolor
 export HISTFILE=~/.zsh_history   # ensure history file visibility
-export HSTR_CONFIG=hicolor       # get more colors
 export HISTSIZE=10000000         # define history limit
 export SAVEHIST=$HISTSIZE        # set history limit
 setopt HIST_EXPIRE_DUPS_FIRST    # expire duplicate entries first when trimming history.
